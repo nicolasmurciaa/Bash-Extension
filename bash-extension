@@ -9,6 +9,7 @@ email="immurcia95@gmail.com"
 estado=OK 
 
 #Envio resultado a txt 
+touch /etc/Bash-Extension/$extension.txt
 asterisk -rx "sip show peers" |grep $extension >/etc/Bash-Extension/$extension.txt 
 
 #variable para discriminar el OK
