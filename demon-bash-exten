@@ -1,6 +1,6 @@
 #!/bin/bash
 PIDFILE=/tmp/demonio-bash-extension.pid
-SRV="demonio"
+SRV="demonio-bash-extension"
 function status()
 if [ -f ${PIDFILE} ];
 then
