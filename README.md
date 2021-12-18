@@ -10,29 +10,25 @@ Script creado en el lenguaje de Scripting Bash, el objetivo es monitorear el est
 
 # Instalación 🔧
 
-## Primer paso:
-- Descargar git clone https://github.com/nicolasmurciaa/Bash-Extension.git
-
-## Segundo paso:
+### Primer paso:
+- Descargar:
+```Bash
+git clone https://github.com/nicolasmurciaa/Bash-Extension.git
+```
+### Segundo paso:
 ```Bash
 mv Bash-Extension /etc/
-```
-```Bash
 cd /etc/Bash-Extension/
-```
-```Bash
 chmod +x *
-```
-```Bash
 ./requirements.sh
 ```
-## Tercer paso:
+### Tercer paso:
 ```Bash
 mv bash-extension /usr/bin/
 ```
-## Cuarto paso:
-- crontab -e
+### Cuarto paso:
 ```Bash
+crontab -e
 * * * * * /usr/bin/bash-extension
 ```
 
