@@ -9,7 +9,7 @@ email="immurcia95@gmail.com"
 estado=OK 
 
 #Envio resultado a txt 
-asterisk -rx "sip show peers" |grep $extension >/etc/bash-extension/$extension.txt 
+asterisk -rx "sip show peers" |grep $extension >/etc/Bash-Extension/$extension.txt 
 
 #variable para discriminar el OK
 base1=`ls -l | awk '{ print $8 }' $extension.txt` 
