@@ -21,21 +21,16 @@ Segundo paso:
 - mv Bash-Extension /etc/
 - cd /etc/Bash-Extension/
 - chmod +x *
+- ./requirements.sh
 
 Tercer paso:
 - mv bash-extension /usr/bin/
 
 Cuarto paso:
-- ./requirements.sh
+- crontab -e
+- * * * * * /usr/bin/bash-extension
 
-Quinto paso:
-- mv demon-bash-exten /etc/init.d/
-- chmod u+x /etc/init.d/demon-bash-exten 
-- ln -s /etc/init.d/demon-bash-exten /etc/rc5.d/S98demon-bash-exten
-- ln -s /etc/init.d/demon-bash-exten /etc/rc3.d/S98demon-bash-exten
-- ln -s /etc/init.d/demon-bash-exten /etc/rc6.d/K01demon-bash-exten
-- ln -s /etc/init.d/demon-bash-exten /etc/rc0.d/K01demon-bash-exten
-- /etc/init.d/demon-bash-exten status
-  *"El demonio  esta en marcha"
+
+
 
 
