@@ -7,8 +7,10 @@ Script creado en el lenguaje de Scripting Bash, el objetivo es monitorear el est
 # Requerimientos:
 
 - Mutt
+- Git
 
 # Nota:
 No debe ser agregado a Cron ya que contiene su propio demonio.
 
 # Instalación:
+
