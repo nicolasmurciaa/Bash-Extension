@@ -4,14 +4,14 @@
 #### immurcia95@gmail.com #### 
 
 #Variables
-extension="1000"
-email="immurcia95@gmail.com"
+extension="XXXX"
+email="xxxx@xxxx.com"
 estado=OK
 
 #Envio resultado a txt 
 touch /etc/Bash-Extension/$extension.txt
 
-asterisk -rx "sip show peers" |grep $extension >/etc/Bash-Extension/$extension.txt
+asterisk -rx "sip show peers" |grep $extension > /etc/Bash-Extension/$extension.txt
 
 #variable para discriminar el OK
 base1=`ls -l | awk '{ print $8 }' /etc/Bash-Extension/$extension.txt`
