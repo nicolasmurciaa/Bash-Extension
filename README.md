@@ -32,8 +32,12 @@ crontab -e
 * * * * * /usr/bin/bash-extension
 ```
 
+# Nota
+La extensión que se desea monitorear se debe agregar dentro de la variable extension en el archivo bash-extension
 
 
-
-
+```Bash
+#Variables
+extension="1120"
+```
 
