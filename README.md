@@ -1,4 +1,4 @@
-# Bash-Extension
+# Bash-Extension 🚀
 Script creado en el lenguaje de Scripting Bash, el objetivo es monitorear el estado OK de una extensión en Asterisk y dependiendo de esto enviar un correo informando la desconexión.
 
 - Creado y probado en Centos7/Asterisk
@@ -8,23 +8,34 @@ Script creado en el lenguaje de Scripting Bash, el objetivo es monitorear el est
 - Mutt
 - Git
 
-# Instalación:
+# Instalación 🔧
 
-Primer paso:
+## Primer paso:
 - Descargar git clone https://github.com/nicolasmurciaa/Bash-Extension.git
 
-Segundo paso:
-- mv Bash-Extension /etc/
-- cd /etc/Bash-Extension/
-- chmod +x *
-- ./requirements.sh
-
-Tercer paso:
-- mv bash-extension /usr/bin/
-
-Cuarto paso:
+## Segundo paso:
+```Bash
+mv Bash-Extension /etc/
+```
+```Bash
+cd /etc/Bash-Extension/
+```
+```Bash
+chmod +x *
+```
+```Bash
+./requirements.sh
+```
+## Tercer paso:
+```Bash
+mv bash-extension /usr/bin/
+```
+## Cuarto paso:
 - crontab -e
-- * * * * * /usr/bin/bash-extension
+```Bash
+* * * * * /usr/bin/bash-extension
+```
+
 
 
 
