@@ -22,6 +22,6 @@ echo $base1
             then
                 echo "Extension $extension OK" 
         else
-                echo "Verificar extension $extension no esta registrando " | /usr/bin/mutt -s" Extensiones Centro de Gestion " $email -a /etc/Bash-Extension/$extension.txt
+                echo "Verificar extension $extension no esta registrando " | /usr/bin/mutt -s" Extension alarmada " $email -a /etc/Bash-Extension/$extension.txt
                 echo "Email enviado" 
 fi
