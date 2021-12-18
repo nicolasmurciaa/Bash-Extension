@@ -15,9 +15,13 @@ No debe ser agregado a Cron ya que contiene su propio demonio.
 # Instalación:
 
 Primer paso:
-Descargar git clone https://github.com/nicolasmurciaa/Bash-Extension.git
+- Descargar git clone https://github.com/nicolasmurciaa/Bash-Extension.git
 
 Segundo paso:
-mv Bash-Extension /etc/
-cd /etc/Bash-Extension/
+- mv Bash-Extension /etc/
+- cd /etc/Bash-Extension/
+- chmod +x *
+
+Tercer paso:
+- 
 
