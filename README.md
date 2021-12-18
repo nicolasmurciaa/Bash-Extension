@@ -14,3 +14,5 @@ No debe ser agregado a Cron ya que contiene su propio demonio.
 
 # Instalación:
 
+Primer paso:
+Descargar https://github.com/nicolasmurciaa/Bash-Extension.git
