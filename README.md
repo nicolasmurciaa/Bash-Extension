@@ -22,22 +22,17 @@ cd /etc/Bash-Extension/
 chmod +x *
 ./requirements.sh
 ```
-### Tercer paso:
-```Bash
-mv bash-extension /usr/bin/
-```
-### Cuarto paso:
 ```Bash
 crontab -e
-* * * * * /usr/bin/bash-extension
+* * * * * sh /etc/Bash-Extension/extension.sh >/etc/Bash-Extension/cron.log 2>&1
 ```
 
 # Nota
-La extensión que se desea monitorear se debe agregar dentro de la variable extension en el archivo bash-extension
-
+La extensión que se desea monitorear se debe agregar dentro de la variable extension en el archivo extension.sh
 
 ```Bash
 #Variables
 extension="1120"
+email="XXX@XXX"
 ```
 
