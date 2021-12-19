@@ -28,7 +28,7 @@ crontab -e
 ```
 
 # Nota
-La extensión que se desea monitorear se debe agregar dentro de la variable extension en el archivo extension.sh
+La extensión que se desea monitorear se debe agregar dentro de la variable extension en el archivo extension.sh al igual que el correo en la variable email
 
 ```Bash
 #Variables
